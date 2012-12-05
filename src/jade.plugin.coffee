@@ -13,12 +13,13 @@ module.exports = (BasePlugin) ->
 			# Check our extension
 			if inExtension is 'jade'
 				# Requires
-				jade = require('jade')
+        jade = require('jade')
+
+        # User config with modified filename
+        @config.filename = file.get('fullPath')
 
 				# Render
-				opts.content = jade.compile(opts.content, {
-					filename: file.get('fullPath')
-				})(templateData)
+        opts.content = jade.compile(opts.content, @config)(templateData)
 
 			# Done, return back to DocPad
 			return next()
