@@ -1,5 +1,12 @@
 ## History
 
+- v2.1.0 December 5, 2012
+	- Better error reporting
+	- We now parse less files with the `filename` option set to the file's `fullPath` (before we didn't send this at all)
+	- Added `jadeOptions` to configuration
+	- By default will now compress output, for the development environment we will not compress output
+	- Thanks [Vladislav Botvin](https://github.com/darrrk) for [pull request #3](https://github.com/docpad/docpad-plugin-jade/pull/3) and [issue #362](https://github.com/bevry/docpad/issues/362)
+
 - v2.0.2 August 10, 2012
 	- Re-added markdown files to npm distribution as they are required for the npm website
 	- Updated [jade](https://github.com/visionmedia/jade) dependency from v0.26 to v0.27
