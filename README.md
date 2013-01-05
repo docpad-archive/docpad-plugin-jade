@@ -1,4 +1,4 @@
-# JAde Plugin for DocPad
+# Jade Plugin for DocPad
 Adds support for the [Jade](http://jade-lang.com/) templating engine to [DocPad](https://docpad.org)
 
 Convention:  `.anything.jade`
