@@ -34,7 +34,7 @@ NOTE: Not all template helpers support being called this way. If it doesn't work
 ### Rendering with the Text Plugin
 You can use the [text plugin](http://docpad.org/plugin/text) to render different parts of your template with different markups that are support by your docpad setup. Once installed, you can do things like:
 
-```
+``` jade
 :t(render="markdown")
     here is some *markdown*
 
