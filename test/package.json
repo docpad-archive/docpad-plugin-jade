@@ -1,0 +1,10 @@
+{
+	"name": "docpad-plugin-jade-testsite",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"docpad-plugin-eco": "latest",
+		"docpad-plugin-marked": "latest",
+		"docpad-plugin-text": "latest"
+	}
+}

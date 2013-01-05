@@ -1,6 +1,6 @@
 {
 	"name": "docpad-plugin-jade",
-	"version": "2.1.0",
+	"version": "2.2.0",
 	"description": "Adds support for the Jade templating engine to DocPad.",
 	"homepage": "http://docpad.org/plugin/jade",
 	"keywords": [
@@ -39,6 +39,6 @@
 	},
 	"main": "./out/jade.plugin.js",
 	"scripts": {
-		"test": "node ./test/jade.test.js"
+		"test": "node ./out/jade.test.js"
 	}
 }

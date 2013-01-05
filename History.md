@@ -1,5 +1,8 @@
 ## History
 
+- v2.2.0 January 5, 2013
+	- Added support for docpad template helpers via jade filters
+
 - v2.1.0 December 5, 2012
 	- Better error reporting
 	- Added `jadeOptions` to configuration

@@ -2,10 +2,10 @@
 module.exports = (BasePlugin) ->
 	# Define Plugin
 	class JadePlugin extends BasePlugin
-		# Plugin name
+		# Name
 		name: 'jade'
 
-		# Plugin configuration
+		# Configuration
 		config:
 			jadeOptions:
 				pretty: false
@@ -13,6 +13,40 @@ module.exports = (BasePlugin) ->
 				development:
 					jadeOptions:
 						pretty: true
+
+		# Constructor
+		constructor: ->
+			# Prepare
+			super
+
+			# Require Jade
+			@jade = require('jade')
+
+			# Chain
+			@
+
+		# Generate Before
+		generateBefore: ->
+			# Prepare
+			templateData = @docpad.getTemplateData()
+			filters = @jade.filters
+			addTemplateDataAsFilter = (key,value) ->
+				filters[key] ?= (str,opts) ->
+					# No special opts
+					if opts.args
+						args = str.split(/\s*\n\s*/)
+						return value.apply(templateData,args)
+					else
+						args = [str,opts]
+						return value.apply(templateData,args)
+
+			# Add template helpers as jade filters
+			for own key,value of templateData
+				if Object::toString.call(value) is '[object Function]'
+					addTemplateDataAsFilter(key,value)
+
+			# Chain
+			@
 
 		# Render some content
 		render: (opts,next) ->
@@ -22,9 +56,6 @@ module.exports = (BasePlugin) ->
 
 			# Check our extension
 			if inExtension is 'jade'
-				# Requires
-				jade = require('jade')
-
 				# Prepare
 				jadeOptions =
 					filename: file.get('fullPath')
@@ -34,7 +65,7 @@ module.exports = (BasePlugin) ->
 
 				# Render
 				try
-					opts.content = jade.compile(opts.content,jadeOptions)(templateData)
+					opts.content = @jade.compile(opts.content,jadeOptions)(templateData)
 				catch err
 					return next(err)
 
