@@ -21,18 +21,18 @@
 		"Vladislav Botvin <darkvlados@me.com> (https://github.com/darrrk)"
 	],
 	"bugs": {
-		"url": "https://github.com/bevry/docpad-extras/issues"
+		"url": "https://github.com/docpad/docpad-plugin-jade/issues"
 	},
 	"repository" : {
 		"type": "git",
-		"url": "http://github.com/bevry/docpad-extras.git"
+		"url": "git://github.com/docpad/docpad-plugin-jade.git"
 	},
 	"engines" : {
 		"node": ">=0.4.0",
 		"docpad": "6.x"
 	},
 	"dependencies": {
-		"jade": "0.27.x"
+		"jade": "0.28.x"
 	},
 	"devDependencies": {
 		"coffee-script": "1.4.x"
