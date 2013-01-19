@@ -1,6 +1,6 @@
 {
 	"name": "docpad-plugin-jade",
-	"version": "2.2.0",
+	"version": "2.3.0",
 	"description": "Adds support for the Jade templating engine to DocPad.",
 	"homepage": "http://docpad.org/plugin/jade",
 	"keywords": [
@@ -18,24 +18,25 @@
 	],
 	"contributors": [
 		"Benjamin Lupton <b@lupton.cc> (http://balupton.com)",
-		"Vladislav Botvin <darkvlados@me.com> (https://github.com/darrrk)"
+		"Vladislav Botvin <darkvlados@me.com> (https://github.com/darrrk)",
+		"Evan Bovie <evan@bovie.me> (https://github.com/phaseOne)"
 	],
 	"bugs": {
-		"url": "https://github.com/docpad/docpad-plugin-jade/issues"
+		"url": "http://docpad.org/plugin/jade/issues"
 	},
 	"repository" : {
 		"type": "git",
-		"url": "git://github.com/docpad/docpad-plugin-jade.git"
+		"url": "https://github.com/docpad/docpad-plugin-jade.git"
 	},
 	"engines" : {
-		"node": ">=0.4.0",
+		"node": ">=0.4",
 		"docpad": "6.x"
 	},
 	"dependencies": {
-		"jade": "0.28.x"
+		"jade": "~0.28.1"
 	},
 	"devDependencies": {
-		"coffee-script": "1.4.x"
+		"coffee-script": "~1.4.0"
 	},
 	"main": "./out/jade.plugin.js",
 	"scripts": {
