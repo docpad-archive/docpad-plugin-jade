@@ -1,6 +1,6 @@
 {
 	"name": "docpad-plugin-jade",
-	"version": "2.3.0",
+	"version": "2.3.1",
 	"description": "Adds support for the Jade templating engine to DocPad.",
 	"homepage": "http://docpad.org/plugin/jade",
 	"keywords": [
@@ -14,10 +14,10 @@
 	],
 	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
 	"maintainers": [
-		"Benjamin Lupton <b@lupton.cc> (http://balupton.com)"
+		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
 	],
 	"contributors": [
-		"Benjamin Lupton <b@lupton.cc> (http://balupton.com)",
+		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
 		"Vladislav Botvin <darkvlados@me.com> (https://github.com/darrrk)",
 		"Evan Bovie <evan@bovie.me> (https://github.com/phaseOne)"
 	],

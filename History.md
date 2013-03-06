@@ -1,5 +1,8 @@
 ## History
 
+- v2.3.1 March 7, 2013
+	- Repackaged
+
 - v2.3.0 January 19, 2013
 	- Updated [jade](https://github.com/visionmedia/jade) dependency from 0.27 to ~0.28.1
 		- Closes [pull request #4](https://github.com/docpad/docpad-plugin-jade/pull/4) thanks to [Evan Bovie](https://github.com/phaseOne)
