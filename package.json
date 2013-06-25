@@ -1,6 +1,6 @@
 {
 	"name": "docpad-plugin-jade",
-	"version": "2.3.2",
+	"version": "2.4.1",
 	"description": "Adds support for the Jade templating engine to DocPad.",
 	"homepage": "http://docpad.org/plugin/jade",
 	"keywords": [

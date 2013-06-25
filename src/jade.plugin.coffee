@@ -35,15 +35,15 @@ module.exports = (BasePlugin) ->
 					# No special opts
 					if opts.args
 						args = str.split(/\s*\n\s*/)
-						return value.apply(templateData,args)
+						return value.apply(templateData, args)
 					else
 						args = [str,opts]
-						return value.apply(templateData,args)
+						return value.apply(templateData ,args)
 
 			# Add template helpers as jade filters
 			for own key,value of templateData
 				if Object::toString.call(value) is '[object Function]'
-					addTemplateDataAsFilter(key,value)
+					addTemplateDataAsFilter(key, value)
 
 			# Chain
 			@
@@ -65,7 +65,14 @@ module.exports = (BasePlugin) ->
 
 				# Render
 				try
-					opts.content = @jade.compile(opts.content,jadeOptions)(templateData)
+					# Ensure template data is bounded
+					# required for jade 0.31+, earlier versions didn't require it
+					for own key,value of templateData
+						if Object::toString.call(value) is '[object Function]'
+							templateData[key] = value.bind(templateData)
+
+					# Compile
+					opts.content = @jade.compile(opts.content, jadeOptions)(templateData)
 				catch err
 					return next(err)
 
