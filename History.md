@@ -1,5 +1,8 @@
 ## History
 
+- v2.5.0 July 28, 2013
+	- Dependency updates
+
 - v2.4.1 June 26, 2013
 	- Fixed regression with the template helpers and jade v0.31
 
