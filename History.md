@@ -1,5 +1,8 @@
 ## History
 
+- v2.6.0 July 28, 2013
+	- Dependency updates
+
 - v2.5.0 July 28, 2013
 	- Dependency updates
 

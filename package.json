@@ -1,46 +1,46 @@
 {
-	"name": "docpad-plugin-jade",
-	"version": "2.5.0",
-	"description": "Adds support for the Jade templating engine to DocPad.",
-	"homepage": "http://docpad.org/plugin/jade",
-	"keywords": [
-		"docpad",
-		"docpad-plugin",
-		"jade",
-		"templating",
-		"templates",
-		"render",
-		"rendering"
-	],
-	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
-	"maintainers": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-	],
-	"contributors": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
-		"Vladislav Botvin <darkvlados@me.com> (https://github.com/darrrk)",
-		"Evan Bovie <evan@bovie.me> (https://github.com/phaseOne)"
-	],
-	"bugs": {
-		"url": "http://docpad.org/plugin/jade/issues"
-	},
-	"repository" : {
-		"type": "git",
-		"url": "https://github.com/docpad/docpad-plugin-jade.git"
-	},
-	"engines" : {
-		"node": ">=0.4",
-		"docpad": "6.x"
-	},
-	"dependencies": {
-		"jade": "~0.34.1"
-	},
-	"devDependencies": {
-		"coffee-script": "~1.6.2",
-		"docpad": ">=6.37 <7"
-	},
-	"main": "./out/jade.plugin.js",
-	"scripts": {
-		"test": "node ./out/jade.test.js"
-	}
+  "name": "docpad-plugin-jade",
+  "version": "2.6.0",
+  "description": "Adds support for the Jade templating engine to DocPad.",
+  "homepage": "http://docpad.org/plugin/jade",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "jade",
+    "templating",
+    "templates",
+    "render",
+    "rendering"
+  ],
+  "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "maintainers": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
+    "Vladislav Botvin <darkvlados@me.com> (https://github.com/darrrk)",
+    "Evan Bovie <evan@bovie.me> (https://github.com/phaseOne)"
+  ],
+  "bugs": {
+    "url": "http://docpad.org/plugin/jade/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/docpad/docpad-plugin-jade.git"
+  },
+  "engines": {
+    "node": ">=0.4",
+    "docpad": "6.x"
+  },
+  "dependencies": {
+    "jade": "~0.35.0"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.2",
+    "docpad": ">=6.37 <7"
+  },
+  "main": "./out/jade.plugin.js",
+  "scripts": {
+    "test": "node ./out/jade.test.js"
+  }
 }
