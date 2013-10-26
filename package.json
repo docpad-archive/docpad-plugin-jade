@@ -36,11 +36,13 @@
     "jade": "~0.35.0"
   },
   "devDependencies": {
-    "coffee-script": "~1.6.2",
-    "docpad": ">=6.37 <7"
+    "coffee-script": "~1.6.2"
   },
   "main": "./out/jade.plugin.js",
   "scripts": {
     "test": "node ./out/jade.test.js"
+  },
+  "peerDependencies": {
+    "docpad": "6"
   }
 }
