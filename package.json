@@ -1,8 +1,18 @@
 {
   "name": "docpad-plugin-jade",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "description": "Adds support for the Jade templating engine to DocPad.",
   "homepage": "http://docpad.org/plugin/jade",
+  "license": {
+    "type": "MIT"
+  },
+  "badges": {
+    "travis": true,
+    "npm": true,
+    "gittip": "docpad",
+    "flattr": "344188/balupton-on-Flattr",
+    "paypal": "QB8GQPZAH84N6"
+  },
   "keywords": [
     "docpad",
     "docpad-plugin",
@@ -12,14 +22,14 @@
     "render",
     "rendering"
   ],
-  "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "author": "2012+ Bevry Pty Ltd <us@bevry.me> (http://bevry.me), 2011 Benjamin Lupton <b@lupton.cc> (http://balupton.com)",
   "maintainers": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
   "contributors": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
-    "Vladislav Botvin <darkvlados@me.com> (https://github.com/darrrk)",
-    "Evan Bovie <evan@bovie.me> (https://github.com/phaseOne)"
+    "Evan Bovie <evan@bovie.me> (https://github.com/phaseOne)",
+    "Vladislav Botvin <darkvlados@me.com> (https://github.com/darrrk)"
   ],
   "bugs": {
     "url": "http://docpad.org/plugin/jade/issues"
@@ -31,17 +41,19 @@
   "engines": {
     "node": ">=0.4"
   },
+  "peerDependencies": {
+    "docpad": "6"
+  },
   "dependencies": {
     "jade": "~0.35.0"
   },
   "devDependencies": {
-    "coffee-script": "~1.6.2"
+    "coffee-script": "~1.6.2",
+    "docpad": "6",
+    "projectz": "~0.2.6"
   },
   "main": "./out/jade.plugin.js",
   "scripts": {
     "test": "node ./out/jade.test.js"
-  },
-  "peerDependencies": {
-    "docpad": "6"
   }
 }

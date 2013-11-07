@@ -30,28 +30,34 @@ module.exports = (BasePlugin) ->
 			# Prepare
 			templateData = @docpad.getTemplateData()
 			filters = @jade.filters
-			addTemplateDataAsFilter = (key,value) ->
-				filters[key] ?= (str,opts) ->
+
+			# Add the template helper as a jade filter
+			addTemplateHelperAsJadeFilter = (key, value) ->
+				filters[key] ?= (str, opts) ->
 					# No special opts
 					if opts.args
 						args = str.split(/\s*\n\s*/)
-						return value.apply(templateData, args)
+						result = value.apply(templateData, args)
+					# With special opts
 					else
 						args = [str,opts]
-						return value.apply(templateData ,args)
+						result = value.apply(templateData, args)
+
+					# Return the result of our template helper
+					return result
 
 			# Add template helpers as jade filters
 			for own key,value of templateData
 				if Object::toString.call(value) is '[object Function]'
-					addTemplateDataAsFilter(key, value)
+					addTemplateHelperAsJadeFilter(key, value)
 
 			# Chain
 			@
 
 		# Render some content
-		render: (opts,next) ->
+		render: (opts, next) ->
 			# Prepare
-			{inExtension,templateData,file} = opts
+			{inExtension, templateData, file} = opts
 			config = @config
 
 			# Check our extension
@@ -61,16 +67,15 @@ module.exports = (BasePlugin) ->
 					filename: file.get('fullPath')
 
 				# Extend
-				jadeOptions[key] = value  for own key,value of config.jadeOptions  if config.jadeOptions
+				jadeOptions[key] = (value  for own key,value of config.jadeOptions)  if config.jadeOptions
 
-				# Render
+				# Ensure template helpers are bound correctly
+				# Needed for Jade v0.31+
+				for own key, value of opts.templateData
+					if value?.bind is Function::bind  # we do this style of check, as underscore is a function that has it's own bind
+						opts.templateData[key] = value.bind(opts.templateData)
+
 				try
-					# Ensure template data is bounded
-					# required for jade 0.31+, earlier versions didn't require it
-					for own key,value of templateData
-						if Object::toString.call(value) is '[object Function]'
-							templateData[key] = value.bind(templateData)
-
 					# Compile
 					opts.content = @jade.compile(opts.content, jadeOptions)(templateData)
 				catch err
