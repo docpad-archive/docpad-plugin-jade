@@ -67,7 +67,7 @@ module.exports = (BasePlugin) ->
 					filename: file.get('fullPath')
 
 				# Extend
-				jadeOptions[key] = (value  for own key,value of config.jadeOptions)  if config.jadeOptions
+				((jadeOptions[key] = value) for own key,value of config.jadeOptions) if config.jadeOptions
 
 				# Ensure template helpers are bound correctly
 				# Needed for Jade v0.31+
