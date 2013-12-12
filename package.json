@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-jade",
-  "version": "2.6.1",
+  "version": "2.6.2",
   "description": "Adds support for the Jade templating engine to DocPad.",
   "homepage": "http://docpad.org/plugin/jade",
   "license": {
@@ -50,7 +50,7 @@
   "devDependencies": {
     "coffee-script": "~1.6.2",
     "docpad": "6",
-    "projectz": "~0.2.6"
+    "projectz": "~0.3.0"
   },
   "main": "./out/jade.plugin.js",
   "scripts": {

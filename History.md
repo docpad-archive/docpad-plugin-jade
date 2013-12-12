@@ -1,5 +1,9 @@
 # History
 
+- v2.6.2 December 12, 3012
+	- Fix loading of plugin settings from docpad configuration (regression since v2.6.1)
+		- Thanks to [Tobias Birmili](https://github.com/toabi) for [pull request #15](https://github.com/docpad/docpad-plugin-jade/pull/15)
+
 - v2.6.1 November 7, 2013
 	- Dependency updates
 	- Repackaged
