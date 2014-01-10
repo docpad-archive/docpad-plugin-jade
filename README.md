@@ -4,9 +4,12 @@
 
 [![Build Status](http://img.shields.io/travis-ci/docpad/docpad-plugin-jade.png?branch=master)](http://travis-ci.org/docpad/docpad-plugin-jade "Check this project's build status on TravisCI")
 [![NPM version](http://badge.fury.io/js/docpad-plugin-jade.png)](https://npmjs.org/package/docpad-plugin-jade "View this project on NPM")
+[![Dependency Status](https://david-dm.org/docpad/docpad-plugin-jade.png?theme=shields.io)](https://david-dm.org/docpad/docpad-plugin-jade)
+[![Development Dependency Status](https://david-dm.org/docpad/docpad-plugin-jade/dev-status.png?theme=shields.io)](https://david-dm.org/docpad/docpad-plugin-jade#info=devDependencies)<br/>
 [![Gittip donate button](http://img.shields.io/gittip/docpad.png)](https://www.gittip.com/docpad/ "Donate weekly to this project using Gittip")
 [![Flattr donate button](http://img.shields.io/flattr/donate.png?color=yellow)](http://flattr.com/thing/344188/balupton-on-Flattr "Donate monthly to this project using Flattr")
 [![PayPayl donate button](http://img.shields.io/paypal/donate.png?color=yellow)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QB8GQPZAH84N6 "Donate once-off to this project using Paypal")
+[![BitCoin donate button](http://img.shields.io/bitcoin/donate.png?color=yellow)](https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a "Donate once-off to this project using BitCoin")
 
 <!-- /BADGES -->
 
@@ -92,14 +95,16 @@ No sponsors yet! Will you be the first?
 [![Gittip donate button](http://img.shields.io/gittip/docpad.png)](https://www.gittip.com/docpad/ "Donate weekly to this project using Gittip")
 [![Flattr donate button](http://img.shields.io/flattr/donate.png?color=yellow)](http://flattr.com/thing/344188/balupton-on-Flattr "Donate monthly to this project using Flattr")
 [![PayPayl donate button](http://img.shields.io/paypal/donate.png?color=yellow)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QB8GQPZAH84N6 "Donate once-off to this project using Paypal")
+[![BitCoin donate button](http://img.shields.io/bitcoin/donate.png?color=yellow)](https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a "Donate once-off to this project using BitCoin")
 
 ### Contributors
 
 These amazing people have contributed code to this project:
 
-- Benjamin Lupton <b@lupton.cc> (https://github.com/balupton) - [view contributions](https://github.com/docpad/docpad-plugin-jade/commits?author=balupton)
-- Evan Bovie <evan@bovie.me> (https://github.com/phaseOne) - [view contributions](https://github.com/docpad/docpad-plugin-jade/commits?author=phaseOne)
-- Vladislav Botvin <darkvlados@me.com> (https://github.com/darrrk) - [view contributions](https://github.com/docpad/docpad-plugin-jade/commits?author=darrrk)
+- [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/docpad/docpad-plugin-jade/commits?author=balupton)
+- [Evan Bovie](https://github.com/phaseOne) <evan@bovie.me> — [view contributions](https://github.com/docpad/docpad-plugin-jade/commits?author=phaseOne)
+- [toabi](https://github.com/toabi) — [view contributions](https://github.com/docpad/docpad-plugin-jade/commits?author=toabi)
+- [Vladislav Botvin](https://github.com/darrrk) <darkvlados@me.com> — [view contributions](https://github.com/docpad/docpad-plugin-jade/commits?author=darrrk)
 
 [Become a contributor!](https://github.com/docpad/docpad-plugin-jade/blob/master/CONTRIBUTING.md#files)
 

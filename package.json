@@ -9,9 +9,12 @@
   "badges": {
     "travis": true,
     "npm": true,
+    "david": true,
+    "daviddev": true,
     "gittip": "docpad",
     "flattr": "344188/balupton-on-Flattr",
-    "paypal": "QB8GQPZAH84N6"
+    "paypal": "QB8GQPZAH84N6",
+    "bitcoin": "https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a"
   },
   "keywords": [
     "docpad",
@@ -29,10 +32,11 @@
   "contributors": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
     "Evan Bovie <evan@bovie.me> (https://github.com/phaseOne)",
+    "toabi (https://github.com/toabi)",
     "Vladislav Botvin <darkvlados@me.com> (https://github.com/darrrk)"
   ],
   "bugs": {
-    "url": "http://docpad.org/plugin/jade/issues"
+    "url": "https://github.com/docpad/docpad-plugin-jade/issues"
   },
   "repository": {
     "type": "git",
@@ -50,7 +54,7 @@
   "devDependencies": {
     "coffee-script": "~1.6.2",
     "docpad": "6",
-    "projectz": "~0.3.0"
+    "projectz": "~0.3.9"
   },
   "main": "./out/jade.plugin.js",
   "scripts": {
