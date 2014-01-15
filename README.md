@@ -30,7 +30,7 @@ docpad install jade
 
 Before you get started with Jade, it is important to be aware of one thing. The majority of support questions that come through with DocPad, aren't actually DocPad issues, but Jade issues. People confusing the syntax, Jade doing it's own templating magic, things like that.
 
-Adding onto this, Jade is one of the slowest templating engines there is <sup>[source](http://ectjs.com/#benchmark)</sup>, Jade will quickly become the bottleneck in large projects.
+Adding onto this, Jade is one of the slowest templating engines there is <sup>[source](http://ectjs.com/#benchmark)</sup>, Jade will quickly become the bottleneck in your larger projects.
 
 The DocPad team recommends you try one of the many other [amazing templating engines](http://docpad.org/docs/plugins#renderers) that are available, over trying to use Jade.
 
