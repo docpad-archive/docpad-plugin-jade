@@ -26,7 +26,7 @@ docpad install jade
 ```
 
 
-### Awareness
+## Awareness
 
 Before you get started with Jade, it is important to be aware of one thing. The majority of support questions that come through with DocPad, aren't actually DocPad issues, but Jade issues. People confusing the syntax, Jade doing it's own templating magic, things like that.
 
