@@ -34,7 +34,7 @@ Adding onto this, Jade is one of the slowest templating engines there is <sup>[s
 
 The DocPad team recommends you try one of the many other [amazing templating engines](http://docpad.org/docs/plugins#renderers) that are available, over trying to use Jade.
 
-If you still insist on using Jade, please be aware, Jade will be a slippery slope.
+If you still insist on using Jade, please be aware, Jade will be a slippery slope, but luckily there are determined Jade users here to help :)
 
 
 ## Usage
