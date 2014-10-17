@@ -1,5 +1,8 @@
 # History
 
+- v2.8.0 October 18, 2014
+	- Updated [jade](https://github.com/visionmedia/jade) dependency from ~0.3.1 to ~1.7.0
+
 - v2.7.0 May 17, 2014
 	- Updated [jade](https://github.com/visionmedia/jade) dependency from ~0.35.0 to ~1.3.1
 

@@ -114,6 +114,7 @@ These amazing people have contributed code to this project:
 
 - [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/docpad/docpad-plugin-jade/commits?author=balupton)
 - [Evan Bovie](https://github.com/phaseOne) <evan@bovie.me> — [view contributions](https://github.com/docpad/docpad-plugin-jade/commits?author=phaseOne)
+- [kizu](https://github.com/kizu) — [view contributions](https://github.com/docpad/docpad-plugin-jade/commits?author=kizu)
 - [toabi](https://github.com/toabi) — [view contributions](https://github.com/docpad/docpad-plugin-jade/commits?author=toabi)
 - [Vladislav Botvin](https://github.com/darrrk) <darkvlados@me.com> — [view contributions](https://github.com/docpad/docpad-plugin-jade/commits?author=darrrk)
 
