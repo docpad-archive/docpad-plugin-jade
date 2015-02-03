@@ -55,9 +55,9 @@
     "jade": "~1.7.0"
   },
   "devDependencies": {
-    "coffee-script": "~1.8.0",
+    "coffee-script": "^1.9.0",
     "docpad": "6",
-    "projectz": "~0.3.17"
+    "projectz": "^0.3.17"
   },
   "main": "./out/jade.plugin.js",
   "scripts": {
