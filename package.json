@@ -52,7 +52,7 @@
     "docpad": "6"
   },
   "dependencies": {
-    "jade": "~1.9.2"
+    "jade": "~1.11.0"
   },
   "devDependencies": {
     "coffee-script": "^1.9.1",
