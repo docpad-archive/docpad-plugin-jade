@@ -3,20 +3,32 @@
   "version": "2.9.0",
   "description": "Adds support for the Jade templating engine to DocPad.",
   "homepage": "http://docpad.org/plugin/jade",
-  "license": {
-    "type": "MIT"
-  },
+  "license": "MIT",
   "badges": {
-    "travis": true,
-    "npm": true,
-    "npmdownloads": true,
-    "david": true,
-    "daviddev": true,
-    "gratipay": "docpad",
-    "flattr": "344188/balupton-on-Flattr",
-    "paypal": "QB8GQPZAH84N6",
-    "bitcoin": "https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a",
-    "wishlist": "http://amzn.com/w/2F8TXKSNAFG4V"
+    "list": [
+      "travisci",
+      "npmversion",
+      "npmdownloads",
+      "daviddm",
+      "daviddmdev",
+      "---",
+      "slackin",
+      "patreon",
+      "gratipay",
+      "flattr",
+      "paypal",
+      "bitcoin",
+      "wishlist"
+    ],
+    "config": {
+      "patreonUsername": "bevry",
+      "gratipayUsername": "bevry",
+      "flattrCode": "344188/balupton-on-Flattr",
+      "paypalButtonID": "QB8GQPZAH84N6",
+      "bitcoinURL": "https://bevry.me/bitcoin",
+      "wishlistURL": "https://bevry.me/wishlist",
+      "slackinURL": "https://slack.bevry.me"
+    }
   },
   "keywords": [
     "docpad",
@@ -29,13 +41,13 @@
   ],
   "author": "2012+ Bevry Pty Ltd <us@bevry.me> (http://bevry.me), 2011 Benjamin Lupton <b@lupton.cc> (http://balupton.com)",
   "maintainers": [
-    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+    "Benjamin Lupton <b@lupton.cc> (http://balupton.com)"
   ],
   "contributors": [
-    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
-    "Evan Bovie <evan@bovie.me> (https://github.com/phaseOne)",
-    "kizu (https://github.com/kizu)",
-    "toabi (https://github.com/toabi)",
+    "Benjamin Lupton <b@lupton.cc> (http://balupton.com)",
+    "Evan Bovie <evan@bovie.me> (http://phaseone.me)",
+    "Roman Komarov <kizmarh@ya.ru> (http://kizu.ru/en/)",
+    "Tobias Birmili (https://github.com/toabi)",
     "Vladislav Botvin <darkvlados@me.com> (https://github.com/darrrk)"
   ],
   "bugs": {
@@ -57,7 +69,7 @@
   "devDependencies": {
     "coffee-script": "^1.10.0",
     "docpad": "6",
-    "projectz": "^0.5.0"
+    "projectz": "^1.0.6"
   },
   "main": "./out/jade.plugin.js",
   "scripts": {
