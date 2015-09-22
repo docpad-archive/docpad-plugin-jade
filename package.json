@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-jade",
-  "version": "2.9.0",
+  "version": "2.10.0",
   "description": "Adds support for the Jade templating engine to DocPad.",
   "homepage": "http://docpad.org/plugin/jade",
   "license": "MIT",
@@ -48,7 +48,8 @@
     "Evan Bovie <evan@bovie.me> (http://phaseone.me)",
     "Roman Komarov <kizmarh@ya.ru> (http://kizu.ru/en/)",
     "Tobias Birmili (https://github.com/toabi)",
-    "Vladislav Botvin <darkvlados@me.com> (https://github.com/darrrk)"
+    "Vladislav Botvin <darkvlados@me.com> (https://github.com/darrrk)",
+    "Roman Piták <roman@pitak.net> (pitak.net)"
   ],
   "bugs": {
     "url": "https://github.com/docpad/docpad-plugin-jade/issues"

@@ -128,7 +128,8 @@ These amazing people have contributed code to this project:
 <li><a href="http://phaseone.me">Evan Bovie</a> — <a href="https://github.com/docpad/docpad-plugin-jade/commits?author=phaseOne" title="View the GitHub contributions of Evan Bovie on repository docpad/docpad-plugin-jade">view contributions</a></li>
 <li><a href="http://kizu.ru/en/">Roman Komarov</a> — <a href="https://github.com/docpad/docpad-plugin-jade/commits?author=kizu" title="View the GitHub contributions of Roman Komarov on repository docpad/docpad-plugin-jade">view contributions</a></li>
 <li><a href="https://github.com/toabi">Tobias Birmili</a> — <a href="https://github.com/docpad/docpad-plugin-jade/commits?author=toabi" title="View the GitHub contributions of Tobias Birmili on repository docpad/docpad-plugin-jade">view contributions</a></li>
-<li><a href="https://github.com/darrrk">Vladislav Botvin</a> — <a href="https://github.com/docpad/docpad-plugin-jade/commits?author=darrrk" title="View the GitHub contributions of Vladislav Botvin on repository docpad/docpad-plugin-jade">view contributions</a></li></ul>
+<li><a href="https://github.com/darrrk">Vladislav Botvin</a> — <a href="https://github.com/docpad/docpad-plugin-jade/commits?author=darrrk" title="View the GitHub contributions of Vladislav Botvin on repository docpad/docpad-plugin-jade">view contributions</a></li>
+<li><a href="pitak.net">Roman Piták</a> — <a href="https://github.com/docpad/docpad-plugin-jade/commits?author=romanpitak" title="View the GitHub contributions of Roman Piták on repository docpad/docpad-plugin-jade">view contributions</a></li></ul>
 
 <a href="https://github.com/docpad/docpad-plugin-jade/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 

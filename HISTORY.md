@@ -1,5 +1,14 @@
 # History
 
+- v2.10.0 September 22, 2015
+	- Updated [jade](https://github.com/jadejs/jade) dependency from ~1.9.2 to ~1.11.0
+	- Updated [coffee-script](https://github.com/jashkenas/coffeescript) dependency from ^1.9.1 to ^1.10.0
+	- Updated [projectz](https://github.com/bevry/projectz) dependency from ^0.5.0 to ^1.0.6
+		- updated `LICENSE.md` formatting
+		- updated `README.md` formatting
+		- updated `package.json` entries
+	- Jade :filters changes in `README.md`.
+
 - v2.9.0 February 8, 2015
 	- Updated [jade](https://github.com/jadejs/jade) dependency from ~1.7.0 to ~1.9.2
 
