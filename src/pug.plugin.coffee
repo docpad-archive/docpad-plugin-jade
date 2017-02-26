@@ -1,17 +1,17 @@
 # Export Plugin
 module.exports = (BasePlugin) ->
 	# Define Plugin
-	class JadePlugin extends BasePlugin
+	class PugPlugin extends BasePlugin
 		# Name
-		name: 'jade'
+		name: 'pug'
 
 		# Configuration
 		config:
-			jadeOptions:
+			pugOptions:
 				pretty: false
 			environments:
 				development:
-					jadeOptions:
+					pugOptions:
 						pretty: true
 
 		# Constructor
@@ -19,8 +19,8 @@ module.exports = (BasePlugin) ->
 			# Prepare
 			super
 
-			# Require Jade
-			@jade = require('jade')
+			# Require Pug
+			@pug = require('pug')
 
 			# Chain
 			@
@@ -29,10 +29,10 @@ module.exports = (BasePlugin) ->
 		generateBefore: ->
 			# Prepare
 			templateData = @docpad.getTemplateData()
-			filters = @jade.filters
+			filters = @pug.filters
 
-			# Add the template helper as a jade filter
-			addTemplateHelperAsJadeFilter = (key, value) ->
+			# Add the template helper as a pug filter
+			addTemplateHelperAsPugFilter = (key, value) ->
 				filters[key] ?= (str, opts) ->
 					# No special opts
 					if opts.args
@@ -46,10 +46,10 @@ module.exports = (BasePlugin) ->
 					# Return the result of our template helper
 					return result
 
-			# Add template helpers as jade filters
+			# Add template helpers as pug filters
 			for own key,value of templateData
 				if Object::toString.call(value) is '[object Function]'
-					addTemplateHelperAsJadeFilter(key, value)
+					addTemplateHelperAsPugFilter(key, value)
 
 			# Chain
 			@
@@ -61,23 +61,23 @@ module.exports = (BasePlugin) ->
 			config = @config
 
 			# Check our extension
-			if inExtension is 'jade'
+			if inExtension is 'pug'
 				# Prepare
-				jadeOptions =
+				pugOptions =
 					filename: file.get('fullPath')
 
 				# Extend
-				((jadeOptions[key] = value) for own key,value of config.jadeOptions) if config.jadeOptions
+				((pugOptions[key] = value) for own key,value of config.pugOptions) if config.pugOptions
 
 				# Ensure template helpers are bound correctly
-				# Needed for Jade v0.31+
+				# Needed for Pug v0.31+
 				for own key, value of opts.templateData
 					if value?.bind is Function::bind  # we do this style of check, as underscore is a function that has it's own bind
 						opts.templateData[key] = value.bind(opts.templateData)
 
 				try
 					# Compile
-					opts.content = @jade.compile(opts.content, jadeOptions)(templateData)
+					opts.content = @pug.compile(opts.content, pugOptions)(templateData)
 				catch err
 					return next(err)
 
