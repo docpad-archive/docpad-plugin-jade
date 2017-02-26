@@ -44,7 +44,7 @@ If you still insist on using Pug, please be aware, Pug will be a slippery slope,
 
 ### Template Helpers as Filters
 
-Use just like any jade template. However, we do add any docpad template helpers you may have as jade filters. There are two ways you can use these filters:
+Use just like any pug template. However, we do add any docpad template helpers you may have as pug filters. There are two ways you can use these filters:
 
 ``` pug
 -# first way, calls the template helper like: myTemplateHelper("content", {opt1="blah",opt2="blah",opt3=true})
