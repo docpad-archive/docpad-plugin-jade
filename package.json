@@ -1,8 +1,8 @@
 {
-  "name": "docpad-plugin-jade",
+  "name": "docpad-plugin-pug",
   "version": "2.10.0",
-  "description": "Adds support for the Jade templating engine to DocPad.",
-  "homepage": "http://docpad.org/plugin/jade",
+  "description": "Adds support for the Pug templating engine to DocPad.",
+  "homepage": "http://docpad.org/plugin/pug",
   "license": "MIT",
   "badges": {
     "list": [
@@ -33,7 +33,7 @@
   "keywords": [
     "docpad",
     "docpad-plugin",
-    "jade",
+    "pug",
     "templating",
     "templates",
     "render",
@@ -49,14 +49,15 @@
     "Roman Komarov <kizmarh@ya.ru> (http://kizu.ru/en/)",
     "Tobias Birmili (https://github.com/toabi)",
     "Vladislav Botvin <darkvlados@me.com> (https://github.com/darrrk)",
-    "Roman Piták <roman@pitak.net> (pitak.net)"
+    "Roman Piták <roman@pitak.net> (pitak.net)",
+    "Craig Dennis <hello@craigmdennis.com> (craigmdennis.com)"
   ],
   "bugs": {
-    "url": "https://github.com/docpad/docpad-plugin-jade/issues"
+    "url": "https://github.com/docpad/docpad-plugin-pug/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/docpad/docpad-plugin-jade.git"
+    "url": "https://github.com/docpad/docpad-plugin-pug.git"
   },
   "engines": {
     "node": ">=0.4"
@@ -65,7 +66,7 @@
     "docpad": "6"
   },
   "dependencies": {
-    "jade": "~1.11.0"
+    "pug": "^2.0.0-beta11"
   },
   "devDependencies": {
     "coffee-script": "^1.10.0",
