@@ -31,7 +31,7 @@ docpad install jade
 
 ## Deprecated
 
-Jade was renamed to Pug. As such the Jade plugin is deprecated. Use [docpad-plugin-pug](https://github.com/docpad/docpad-plugin-pug) instead.
+Jade was renamed to [Pug](http://pugjs.org/), as such the Jade plugin is deprecated. Use [docpad-plugin-pug](https://github.com/docpad/docpad-plugin-pug) instead.
 
 
 ## Awareness
