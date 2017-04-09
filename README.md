@@ -18,14 +18,6 @@
 
 <!-- /BADGES -->
 
----
-
-## This plugin has been deprecated
-Please use [docpad-plugin-pug](https://github.com/docpad/docpad-plugin-pug).
-
----
-
-
 Adds support for the [Jade](http://jade-lang.com/) templating engine to [DocPad](https://docpad.org)
 
 Convention:  `.anything.jade`
@@ -36,6 +28,10 @@ Convention:  `.anything.jade`
 ```
 docpad install jade
 ```
+
+## Deprecated
+
+Jade was renamed to Pug. As such the Jade plugin is deprecated. Use [docpad-plugin-pug](https://github.com/docpad/docpad-plugin-pug) instead.
 
 
 ## Awareness
