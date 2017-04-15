@@ -84,6 +84,21 @@ You can use the [text plugin](http://docpad.org/plugin/text) to render different
 ```
 
 
+### Troubleshooting
+
+Before you get started with Jade, it is important to be aware that the
+majority of support questions that come through DocPad are related to
+Jade. People confuse the syntax, or use the templating system
+incorrectly. If you run into troubles using Jade with DocPad, be sure to
+get involved in the [Jade issue queue](http://github.com/visionmedia/jade/issues)
+as there may be a potential fix available. This project is simply about
+using Jade with DocPad, not about improving the Jade experience.
+
+Another option is to have a look at some of the [other template
+engines](http://docpad.org/docs/plugins#renderers) out there. If Jade is
+not working for you, there are alternatives.
+
+
 <!-- HISTORY/ -->
 
 <h2>History</h2>
